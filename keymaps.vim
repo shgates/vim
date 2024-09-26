@@ -8,9 +8,10 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
 " My keymaps
-inoremap jj <ESC > " Leave insert mode with jj 
+" Leave insert mode with jj 
+inoremap jj <ESC> 
 
-
+" Vim Windows
 map <leader>k :wincmd k<CR>        " go window up
 map <leader>j :wincmd j<CR>        " go window down
 map <leader>h :wincmd h<CR>        " go window left
