@@ -5,10 +5,12 @@ set smartindent
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set number
+"set number
 set undodir^=~/.vim/undo
 set termguicolors
 set background=dark
+set noshowmode
+set belloff=all
 
 let mapleader = " "
 
