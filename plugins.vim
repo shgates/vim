@@ -8,7 +8,6 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdtree'
-Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' }
 Plug 'bkad/CamelCaseMotion'
 Plug 'godlygeek/tabular'
 Plug 'vim-scripts/LargeFile'
@@ -18,5 +17,7 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'morhetz/gruvbox'
 call plug#end()
+
+let g:coc_disable_startup_warning = 1
 
 colorscheme gruvbox
