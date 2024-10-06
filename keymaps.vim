@@ -16,5 +16,5 @@ map <leader>k :wincmd k<CR>        " go window up
 map <leader>j :wincmd j<CR>        " go window down
 map <leader>h :wincmd h<CR>        " go window left
 map <leader>l :wincmd l<CR>        " go window right
-map <leader>v :vertical :new<CR>   " open new vertical window
-map <leader>h :new<CR>             " open a new horizontal window
+map <leader>wv :vertical :new<CR>   " open new vertical window
+map <leader>wh :new<CR>             " open a new horizontal window
