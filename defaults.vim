@@ -12,6 +12,9 @@ set background=dark
 set noshowmode
 set belloff=all
 
+"" if linux
+set clipboard=unnamedplus
+
 let mapleader = " "
 
 au FileType xml setlocal equalprg=xmllint\ --format\ --recover\ -\ 2>/dev/null

@@ -3,6 +3,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'dense-analysis/ale'
 
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'rhysd/vim-clang-format'
 
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
