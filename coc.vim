@@ -4,6 +4,7 @@ set updatetime=300
 set shortmess+=c
 set signcolumn=yes
 autocmd CursorHold * silent call CocActionAsync('highlight')
+let g:coc_global_extensions = ['coc-clangd']
 
 " Keymaps
 
